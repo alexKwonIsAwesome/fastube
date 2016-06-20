@@ -7,5 +7,4 @@ install:
 script:
     - pep8 .
 notifications:
-    - python wpsblog/manage.py test users posts 
-        
+    slack: alexkwon:06lstDtH0zasZMdhWXaR9p5J
